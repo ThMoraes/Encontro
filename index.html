@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>UNISUAM - Tecnologias Eaducaionais | Criação da Apresentação</title>
+
+  <!-- Icons & Fonts -->
+  <link rel="icon" href="Img/Icons/iconGuia.png" type="image/x-icon">
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&display=swap&subset=latin-ext">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="cores.css">
+
+</head>
+
+<body>
+  <section class="" id="escolha">
+    <section class="conteudoTopo">
+      <h1 class="nomeTopo txtBranco">Criação do Encontro</h1>
+    </section>
+    <section class="informacoes">
+      <div class="div" id="escolhaDiv">
+        <div class="input" id="input"><input class="botao" id="botao" type="button" value="AO VIVO" onclick="criarApresentacao1_0()"></div>
+        <div class="input" id="input"><input class="botao" id="botao" type="button" value="GRAVAÇÂO" onclick="criarApresentacao2_0()"></div>
+      </div>
+    </section>
+  </section>
+  <section class="displayNone" id="HTML1_1">
+    <section class="conteudoTopo">
+      <h1 class="nomeTopo txtBranco">Criação do Encontro - Ao Vivo</h1>
+    </section>
+    <section class="informacoes bgBranco">
+      <!-- Encontro 1 -->
+      <div class="div" id="div1_1_1">
+        <h2>Encontro 1</h2>
+        <div class="bgCinza1 div widthGeral">
+          <p class="linha" ><span class="nomeLinha">Data da Realização:</span></p>
+          <p><input type="date" value="" class="textoLinha bdCinza4 bgBranco" id="texto1_1_1" name="" style="height: 25px;"/></p>
+        </div>
+        <div class="bgCinza1 div widthGeral">
+          <p class="linha" ><span class="nomeLinha">Horário da Realização:</span></p>
+          <p><input type="time" value="" class="textoLinha bdCinza4 bgBranco" id="texto1_1_2" name="" style="height: 25px;"/> às <input type="time" value="" class="textoLinha bdCinza4 bgBranco" id="texto1_1_3" name="" style="height: 25px;"/></p>
+        </div>
+        <div class="bgCinza1 div widthGeral">
+          <p class="linha"><span class="nomeLinha">Link:</span></p>
+          <p><input type="text" value="" class="textoLinha bdCinza4 bgBranco " id="texto1_1_4" name="" style="height: 25px; width: 100%;"/></p>
+        </div>
+      </div>
+      <!-- Encontro 2 -->
+      <div class="div" id="div1_2_1">
+        <h2>Encontro 2</h2>
+        <div class="bgCinza1 div widthGeral">
+          <p class="linha" ><span class="nomeLinha">Data da Realização:</span></p>
+          <p><input type="date" value="" class="textoLinha bdCinza4 bgBranco" id="texto2_1_1" name="" style="height: 25px;"/></p>
+        </div>
+        <div class="bgCinza1 div widthGeral">
+          <p class="linha" ><span class="nomeLinha">Horário da Realização:</span></p>
+          <p><input type="time" value="" class="textoLinha bdCinza4 bgBranco" id="texto2_1_2" name="" style="height: 25px;"/> às <input type="time" value="" class="textoLinha bdCinza4 bgBranco" id="texto2_1_3" name="" style="height: 25px;"/></p>
+        </div>
+        <div class="bgCinza1 div widthGeral">
+          <p class="linha"><span class="nomeLinha">Link:</span></p>
+          <p><input value="" class="textoLinha bdCinza4 bgBranco " id="texto2_1_4" name="" style="height: 25px; width: 100%;"/></p>
+        </div>
+      </div>
+      <!-- Botão Criar -->
+      <div class="div" id="div1_2">
+        <input class="botao bgLaranjaClaroSuam bdLaranjaClaroSuam txtBranco" id="botao" type="button" value="CRIAR HTML" onclick="criarApresentacao1_1()">
+      </div>
+      <!-- HTML Gerado -->
+      <div class="div displayNone" id="div1_3">
+        <hr class="linhaDivisoria">        
+        <div class="bgCinza1 div  widthGeral">
+          <p class="linha"><span class="nomeLinha">Copiar o HTML:</span></p>
+          <p><textarea class="desabilitar bdCinza4 bgBranco" id="copiar1_1" style="height: 150px; width: 100%;"></textarea></p>
+        </div>
+      </div>
+      <div class="div displayNone" id="div1_4">
+        <input class="botao bgLaranjaClaroSuam bdLaranjaClaroSuam txtBranco" id="botao" type="button" value="COPIAR TUDO" onclick="copiarTexto1_1()">
+      </div>
+    </section>
+  </section>
+
+
+  <section class="displayNone" id="HTML2_1">
+    <section class="conteudoTopo">
+      <h1 class="nomeTopo txtBranco">Criação do Encontro - Gravação </h1>
+    </section>
+    <section class="informacoes bgBranco">
+      <div class="div" id="div2_1">        
+        <div class="bgCinza1 div">
+          <p class="linha"><spanz class="nomeLinha">Nome do coordenador:</span></p>
+          <p><input value="" class="textoLinha bdCinza4 bgBranco" id="texto2_1" name="" style="height: 25px;"/></p>
+        </div>
+        <div class="bgCinza1 div">
+          <p class="linha"><span class="nomeLinha">Descrição do Currículo:</span></p>
+          <p><textarea class="textoLinha bdCinza4 bgBranco" id="texto2_2" name="" style="height: 300px;"></textarea></p>
+        </div>
+        <div class="bgCinza1 div">
+          <p class="linha"><span class="nomeLinha">Vídeo do coordenador:</span></p>
+          <p><input value="" class="textoLinha bdCinza4 bgBranco" id="texto2_3" name="" style="height: 25px;"/></p>
+        </div>
+      </div>
+      <div class="div" id="div2_2">
+        <input class="botao bgLaranjaClaroSuam bdLaranjaClaroSuam txtBranco" id="botao" type="button" value="CRIAR APRESENTAÇÃO" onclick="criarApresentacao2_1()">
+      </div>
+      <div class="div displayNone" id="div2_3">
+        <hr class="linhaDivisoria">        
+        <div class="bgCinza1 div">
+          <p class="linha"><span class="nomeLinha">Copiar o HTML:</span></p>
+          <p><textarea class="desabilitar bdCinza4 bgBranco" id="copiar2_1" style="height: 150px;"></textarea></p>
+        </div>    
+       </div>
+      <div class="div displayNone" id="div2_4">
+        <input class="botao bgLaranjaClaroSuam bdLaranjaClaroSuam txtBranco" id="botao" type="button" value="COPIAR TUDO" onclick="copiarTexto2_1()">
+      </div>
+    </section>
+  </section>
+  
+
+  <script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

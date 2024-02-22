@@ -1,0 +1,135 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+body{
+	background:url(Img/Background/background_Main_Papel.png) repeat-x fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+  /* background-color: #f7f7f7; */
+  font-family: Arial, Helvetica, sans-serif;
+  word-wrap: break-word;
+}
+input, textarea{
+  border: solid 1px #00000000;
+  border-radius: 1px;
+}
+
+
+.conteudoTopo{
+  width: 100vw;
+  margin: 0 auto;
+  padding: 10px 25px;
+	background:url(Img/Background/Background_Header_Laranja_Claro_Escuro.png);
+  /* background-color: #FF7514; */
+  background-size: cover;
+  background-position: center;
+}
+.nomeTopo{
+  font-size: 32px;
+  text-align: center;
+  padding: 6px 0 6px 0;
+  font-weight: bolder;  
+  font-family: "PT Sans", sans-serif, arial !important;  
+  text-transform: uppercase;
+}
+
+
+
+.texto{
+  word-wrap: break-word;
+}
+
+.informacoes{
+  width: 70vw;
+  margin: 20px auto;
+  padding: 15px 10px;
+  display: grid;
+  grid-template-columns: 1fr;
+  border-radius: 1px;
+}
+.div{
+  margin: auto;
+}
+#div1_2, #div1_4,#div2_2, #div2_4{
+  margin: auto;
+  padding: 10px;
+}
+
+.div{
+  padding: 10px;
+  margin: 10px 0px;
+  width: max-content
+}
+.linha{
+  padding-bottom: 5px;
+}
+.nomeLinha{
+  font-weight: bolder;
+}
+textarea{
+  resize: none;
+}
+.widthGeral{
+  width: 65vw;
+}
+
+.botao{
+  margin: 5px auto;
+  padding: 5px 10px;
+  font-weight: bolder;
+  border-radius: 5px;
+  cursor: pointer;
+  background: #EF7D00;
+  color:#ffffff;
+}
+
+#escolhaDiv{
+  margin: 20px auto;
+  padding: 15px 10px;
+  display: flex;
+  justify-content: center;
+}
+#escolha .botao{
+  margin: 5px 50px;
+  padding: 10px 0px;
+  font-weight: bolder;
+  font-size: 16px;
+  width: 350px;
+}
+.botao:hover{
+  background-color: #EA5A33;
+  border-color: #EA5A33;
+}
+
+
+.linhaDivisoria{
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.displayNone{
+  display: none;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 915px){
+  .widthGeral{
+    width: 800px;
+  }
+  #div1_1, #div1_3,#div2_1, #div2_3{
+    overflow-x: scroll;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 815px){
+  #div1_1, #div1_3,#div2_1, #div2_3{
+    overflow-x: scroll;
+    width: 100%;
+  }
+}
