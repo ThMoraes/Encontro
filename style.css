@@ -3,7 +3,7 @@
   margin: 0;
 }
 body{
-	background:url(Img/Background/background_Main_Papel.png) repeat-x fixed;
+	background:url(Img/Background/background_novo.png) repeat-x fixed;
   background-repeat: no-repeat;
   background-size: cover;
   overflow-x: hidden;
@@ -100,8 +100,8 @@ textarea{
   width: 350px;
 }
 .botao:hover{
-  background-color: #7a0b30;
-  border-color: #7a0b30;
+  background-color: #670928;
+  border-color: #670928;
 }
 
 
@@ -113,7 +113,6 @@ textarea{
 .displayNone{
   display: none;
 }
-
 
 
 
